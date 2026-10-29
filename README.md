@@ -169,7 +169,7 @@ HR-Analytics-Dashboard/
 
 **Latha D**
 - GitHub: [github.com/latha-dharmaraj](https://github.com/latha-dharmaraj)
-- LinkedIn: [linkedin.com/in/latha-d-92b0122b2](linkedin.com/in/latha-d-92b0122b2)
-- Email: [lathadharmaraj24@gmail.com](lathadharmaraj24@gmail.com)
+- LinkedIn: [linkedin.com/in/latha-d-92b0122b2](https://linkedin.com/in/latha-d-92b0122b2)
+- Email: [lathadharmaraj24@gmail.com](mailto:lathadharmaraj24@gmail.com)
 
 ⭐ If you found this project useful, feel free to star the repo!
