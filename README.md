@@ -57,7 +57,7 @@ HR leaders need a clear, data-backed view of their workforce to make decisions o
 
 ## 🧹 Data Cleaning (MySQL)
 
-The raw CSV had inconsistent formats that had to be fixed before analysis. Full script: [`sql/cleaned_hr_data.sql`](sql/cleaned_hr_data.sql)
+The raw CSV had inconsistent formats that had to be fixed before analysis. Full script: [`sql/cleaned_hr_data.sql`](hr_raw_to_cleaned_data.csv)
 
 | Issue found | Fix applied |
 |---|---|
@@ -98,7 +98,7 @@ Plus summary KPIs: **Total, Active and Terminated employee counts**.
 The dashboard has two pages with interactive filters (**City** and **Department** slicers).
 
 ### Page 1: Workforce Overview
-![Dashboard Page 1](images/hr_dashboard_page1.png)
+![Dashboard Page 1](hr_dashboard_screenshort_page1.png)
 
 - **KPI cards:** Active Employees, Terminated Employees, Total Employees, Overall Termination Rate
 - Gender breakdown (donut), HQ vs. Remote (donut)
@@ -107,7 +107,7 @@ The dashboard has two pages with interactive filters (**City** and **Department*
 - Hiring vs. Termination trends and Yearly Workforce Change (%)
 
 ### Page 2: Location & Attrition Deep Dive
-![Dashboard Page 2](images/hr_dashboard_page2.png)
+![Dashboard Page 2](hr_dashboard_screenshort_page2.png)
 
 - Employee distribution by State (map)
 - Employee distribution by Department (treemap)
@@ -139,10 +139,10 @@ HR-Analytics-Dashboard/
 ├── sql/
 │   └── cleaned_hr_data.sql
 ├── dashboard/
-│   └── HR_Analytics_Dashboard.pbix
+│   └── hr_analytics_dashboard.pbix
 ├── images/
-│   ├── hr_dashboard_page1.png
-│   └── hr_dashboard_page2.png
+│   ├── hr_dashboard_screenshort_page1.png
+│   └── hr_dashboard_screenshort_page2.png
 └── README.md
 ```
 
@@ -153,13 +153,13 @@ HR-Analytics-Dashboard/
 1. Clone this repository: `git clone https://github.com/latha-dharmaraj/<HR_Analytics_Dashboard>.git`
 2. Import `data/hr_raw_to_cleaned_data.csv` into MySQL (table name: `hr_tbl`, database: `hr_analytics_db`).
 3. Run `sql/cleaned_hr_data.sql` in MySQL Workbench to clean the data and view the analysis queries.
-4. Open `dashboard/HR_Analytics_Dashboard.pbix` in **Power BI Desktop** and refresh the data source.
+4. Open `dashboard/hr_analytics_dashboard.pbix` in **Power BI Desktop** and refresh the data source.
 
 ---
 
 ## 🚀 Future Improvements
 
-- Add an employee **tenure analysis** page and **attrition prediction** using Python / ML
+- Add an employee **tenure analysis** page and **attrition prediction** using Python 
 - Connect Power BI directly to MySQL for live refresh
 - Publish the dashboard to Power BI Service for easy sharing
 
@@ -167,7 +167,7 @@ HR-Analytics-Dashboard/
 
 ## 📬 Contact
 
-**Latha**
+**Latha D**
 - GitHub: [github.com/latha-dharmaraj](https://github.com/latha-dharmaraj)
 - LinkedIn: [linkedin.com/in/latha-d-92b0122b2](linkedin.com/in/latha-d-92b0122b2)
 - Email: [lathadharmaraj24@gmail.com](lathadharmaraj24@gmail.com)
