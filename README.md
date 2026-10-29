@@ -150,7 +150,7 @@ HR-Analytics-Dashboard/
 
 ## ▶️ How to Use 
 
-1. Clone this repository: `git clone https://github.com/latha-dharmaraj/<HR_Analytics_Dashboard>.git`
+1. Clone this repository: `git clone https://github.com/latha-dharmaraj/HR_Analytics_Dashboard.git`
 2. Import `data/hr_raw_to_cleaned_data.csv` into MySQL (table name: `hr_tbl`, database: `hr_analytics_db`).
 3. Run `sql/cleaned_hr_data.sql` in MySQL Workbench to clean the data and view the analysis queries.
 4. Open `dashboard/hr_analytics_dashboard.pbix` in **Power BI Desktop** and refresh the data source.
